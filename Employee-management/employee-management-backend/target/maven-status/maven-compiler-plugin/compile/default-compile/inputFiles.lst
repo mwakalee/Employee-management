@@ -1,0 +1,5 @@
+/workspaces/Employee-management/Employee-management/employee-management-backend/src/main/java/com/example/employees/Model/Employee.java
+/workspaces/Employee-management/Employee-management/employee-management-backend/src/main/java/com/example/employees/controller/EmployeeController.java
+/workspaces/Employee-management/Employee-management/employee-management-backend/src/main/java/com/example/employees/repository/EmployeeRepository.java
+/workspaces/Employee-management/Employee-management/employee-management-backend/src/main/java/com/example/employees/EmployeeManagementApplication.java
+/workspaces/Employee-management/Employee-management/employee-management-backend/src/main/java/com/example/employees/Service/EmployeeService.java
