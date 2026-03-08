@@ -1,4 +1,4 @@
-const apiUrl = "https://<random-id>-8080.githubpreview.dev/api/employees";
+const apiUrl = "https://miniature-winner-rwj6q67xv773w59g-8080.app.github.dev/api/employees";
 
 interface Employee {
     id?: number;
