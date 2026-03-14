@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>EMS Dashboard</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="layout">
+
+<div class="sidebar">
+
+<h2>EMS</h2>
+
+<a onclick="showPage('dashboard')">Dashboard</a>
+<a onclick="showPage('employees')">Employees</a>
+<a onclick="showPage('profile')">Profile</a>
+
+</div>
+
+<div class="main">
+
+<div id="dashboardPage">
+
+<h1>Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Employees</h3>
+<p id="employeeCount">0</p>
+</div>
+
+<div class="card">
+<h3>Managers</h3>
+<p>2</p>
+</div>
+
+<div class="card">
+<h3>Departments</h3>
+<p>4</p>
+</div>
+
+</div>
+
+<canvas id="employeeChart"></canvas>
+
+</div>
+
+<div id="employeesPage" style="display:none">
+
+<h1>Employees</h1>
+
+<div id="adminSection">
+
+<input id="name" placeholder="Name">
+
+<input id="position" placeholder="Position">
+
+<button onclick="addEmployee()">Add Employee</button>
+
+</div>
+
+<div id="employeeCards"></div>
+
+</div>
+
+<div id="profilePage" style="display:none">
+
+<h1>Profile</h1>
+
+<p>Username: <span id="profileUsername"></span></p>
+
+<p>Role: <span id="profileRole"></span></p>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

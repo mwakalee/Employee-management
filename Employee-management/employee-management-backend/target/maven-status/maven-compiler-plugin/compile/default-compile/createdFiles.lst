@@ -1,5 +1,10 @@
 com/example/employees/service/EmployeeService.class
-com/example/employees/EmployeeManagementApplication.class
 com/example/employees/repository/EmployeeRepository.class
-com/example/employees/model/Employee.class
 com/example/employees/controller/EmployeeController.class
+com/example/employees/service/AuthService.class
+com/example/employees/repository/UserRepository.class
+com/example/employees/EmployeeApplication.class
+com/example/employees/model/User.class
+com/example/employees/controller/AuthController.class
+com/example/employees/model/Role.class
+com/example/employees/model/Employee.class

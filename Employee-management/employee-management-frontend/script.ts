@@ -51,4 +51,6 @@ async function deleteEmployee(id: number) {
     fetchEmployees();
 }
 
-fetchEmployees();
+window.onload = () => {
+    fetchEmployees();
+};
